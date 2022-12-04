@@ -1,8 +1,8 @@
-п»їimport java.util.Scanner;
+import java.util.Scanner;
 
 public class Task1 {
     public static void main(String[] args) {
-        System.out.print("Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ С‚РёРїР° float: ");
+        System.out.print("Введите число типа float: ");
         while(true){
             try{
                 Scanner in= new Scanner(System.in);
@@ -11,7 +11,7 @@ public class Task1 {
                 break;
             }
             catch(Exception ex){
-                System.out.print("Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ С‚РёРїР° float: ");
+                System.out.print("Введите число типа float: ");
             }
         }
     }
